@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}Account Editted Successfully{% endblock %}
+
+{% block content %}
+ <h1>Account Editted Successfully {{ usename }}!</h1>
+ <p>Your account has been successfully Editted. Continue to <a href=
+"{% url "dashboard" %}">Home page</a>.</p>
+{% endblock %}
